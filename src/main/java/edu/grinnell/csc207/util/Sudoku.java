@@ -40,4 +40,22 @@ public interface Sudoku {
    * @return The formatted string.
    */
   public String toString();
+
+  /**
+   * Returns the height of a box.
+   * @return The height of a box.
+   */
+  public int xDimSize();
+
+  /**
+   * Returns the width of a box.
+   * @return The width of a box.
+   */
+  public int yDimSize();
+
+  /**
+   * Returns the grid of the sudoku board.
+   * @return The grid of the sudoku board.
+   */
+  public int[][] grid();
 } // Sudoku
